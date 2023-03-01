@@ -1,0 +1,39 @@
+<!-- CSS = Cascade Style Sheets-->
+
+<style>
+/*Declarações;
+	#a, p: seletores;
+	color, font-size: propriedades;
+	red, green, px: valores;
+	Cascatas e especificidade. */
+	#a {
+		color: red;
+		font-size: 16px;
+	}
+	p {
+		color: green;
+		font-size: 20px;
+	}
+</style>
+
+<p id="a" style="color: yellow">
+	Aprendendo CSS
+</p>
+
+<p>
+	Aprendendo CSS
+</p>
+
+<!-- Estrutura de uma declaração:
+	seletor{
+		propriedade: valor;
+		propridade: valor;
+		.
+		.
+		.
+	}
+	Ordem de especificidade: propriedade dentro da chamada > id > propriedade sem ID na cascata.
+	nb de ID > nb de classes > nb de elementos;
+	Esquerda > direita;
+	propriedade: valor !important; == automaticamente declarado como de máxima prioridade
+-->
